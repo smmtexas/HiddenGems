@@ -1,0 +1,153 @@
+body {
+  background: linear-gradient(to bottom, #40e0d0, #adff2f);
+  margin: 2%;
+  font-size: 150%;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  display: flex;
+  grid-template-columns: 40%, 40%;
+  justify-content: space-around;
+}
+
+img {
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 1px;
+  border: outset, #000000;
+  padding: 5px;
+  border-radius: 0.5px;
+}
+
+nav a {
+  text-decoration: none;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  border: 3px groove, #fc7e00;
+  padding: 5px;
+  border-radius: 0.5px;
+  color: #000000;
+  text-align: center;
+}
+
+li {
+  list-style-type: lower-latin;
+  display: inline-block;
+  width: 25%;
+  color: #000000;
+  text-align: center;
+}
+
+ul {
+  list-style-type:lower-latin;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  display: inline;
+  width: 25%;
+  font-size: medium;
+  padding-top: 25px;
+  color: #000000;
+  text-align: center;
+}
+
+header {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+nav {
+  font-variant: small-caps;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+}
+
+section {
+  width: 30%;
+  margin-right: 2%;
+  display: inline-block;
+  float: none;
+}
+
+summary {
+  font-style: normal;
+}
+
+details {
+  font-style: italic;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-size: large;
+  justify-content: center;
+  font-weight: normal;
+  text-align:left;
+}
+
+h4{
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-align:center;
+  font-size: small;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-size: medium;
+  justify-content: center;
+  text-align: left;
+}
+
+h6{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000000;
+  font-size: x-small;
+  text-align: center;
+}
+
+#skip-to-main {
+  position: absolute;
+  top: .5px; 
+  left: -9999px;
+  opacity: 0;
+  text-decoration: none;
+  font-size: small;
+}
+
+#skip-to-main:focus {
+  left: 15px; 
+  opacity: 1;
+  font-size: small;
+}
+
+img:hover {
+  transition: .2s;
+  width: 25%;
+  border-radius: 15%;
+}
+
+img:active{
+  opacity: 0.8;
+  transition: .3s;
+  width: 10%;
+  border-radius: 50%;
+}
+
+.banner:hover{
+  transition: .2s;
+  width: 100%;
+  border-radius: 25%;
+}
+
+.banner:active{
+  opacity: 0.8;
+  transition: .3s;
+  width: 75%;
+}
